@@ -81,8 +81,6 @@ Experiments were conducted with the following setup:
 - **NVIDIA Driver:** 555.42.06  
 - **OS:** Linux 6.8.0-106-generic
 
----
-
 ### Training Time
 
 Baseline U-Net training required approximately **~4 hours per model** on NVIDIA MX350.  
