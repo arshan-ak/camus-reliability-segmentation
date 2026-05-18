@@ -69,6 +69,29 @@ figures/    → Key plots and qualitative examples
 
 ---
 
+## Training Environment
+
+Experiments were conducted with the following setup:
+
+- **Python:** 3.10.19  
+- **PyTorch:** 2.5.1+cu121  
+- **MONAI:** 1.x  
+- **CUDA (Torch build):** 12.1  
+- **GPU:** NVIDIA GeForce MX350  
+- **NVIDIA Driver:** 555.42.06  
+- **OS:** Linux 6.8.0-106-generic
+
+---
+
+### Training Time
+
+Baseline U-Net training required approximately **~4 hours per model** on NVIDIA MX350.  
+LA-weighted and noise-augmented variants required similar training time.
+
+Robustness and evaluation scripts were executed on GPU; CPU execution is possible but significantly slower.
+
+---
+
 ## Uncertainty & Selective Prediction
 
 Uncertainty is computed using softmax entropy:
