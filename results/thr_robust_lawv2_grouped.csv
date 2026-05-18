@@ -1,0 +1,17 @@
+model,corruption,severity,strategy,target_val_cov,achieved_test_cov,all_dice,all_la,kept_dice,kept_la,kept_n,file
+laweighted_v2,v2_noise,2,grouped_thr,0.7,0.405,0.7581329400000001,0.637123225,0.8142677901234568,0.7164932469135802,81,runs/robust/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,2,grouped_thr,0.8,0.525,0.7581329400000001,0.637123225,0.8077329333333334,0.7140071523809525,105,runs/robust/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,2,grouped_thr,0.9,0.7,0.7581329400000001,0.637123225,0.7905944571428571,0.6803426357142858,140,runs/robust/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,2,grouped_thr,0.95,0.76,0.7581329400000001,0.637123225,0.7848729868421053,0.6762393486842105,152,runs/robust/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,3,grouped_thr,0.7,0.15,0.700110735,0.544190945,0.7740266333333333,0.6338622666666666,30,runs/robust/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_noise,3,grouped_thr,0.8,0.225,0.700110735,0.544190945,0.7487763111111112,0.5813669333333333,45,runs/robust/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_noise,3,grouped_thr,0.9,0.43,0.700110735,0.544190945,0.7350766395348838,0.5544346279069767,86,runs/robust/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_noise,3,grouped_thr,0.95,0.525,0.700110735,0.544190945,0.7370401238095238,0.5688009904761905,105,runs/robust/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_occlusion,2,grouped_thr,0.7,0.08,0.603753155,0.51180706,0.706589125,0.6065470625,16,runs/robust/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,2,grouped_thr,0.8,0.17,0.603753155,0.51180706,0.6786888823529412,0.5639450882352941,34,runs/robust/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,2,grouped_thr,0.9,0.4,0.603753155,0.51180706,0.667794925,0.5635715375,80,runs/robust/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,2,grouped_thr,0.95,0.515,0.603753155,0.51180706,0.6559012427184467,0.5552992621359224,103,runs/robust/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,3,grouped_thr,0.7,0.005,0.564627945,0.44650311000000004,0.793731,0.831032,1,runs/robust/laweighted_v2_occlusion_s3.csv
+laweighted_v2,v2_occlusion,3,grouped_thr,0.8,0.055,0.564627945,0.44650311000000004,0.6690146363636363,0.567678909090909,11,runs/robust/laweighted_v2_occlusion_s3.csv
+laweighted_v2,v2_occlusion,3,grouped_thr,0.9,0.245,0.564627945,0.44650311000000004,0.6461163673469388,0.5147365918367347,49,runs/robust/laweighted_v2_occlusion_s3.csv
+laweighted_v2,v2_occlusion,3,grouped_thr,0.95,0.325,0.564627945,0.44650311000000004,0.6361335846153846,0.5118327538461538,65,runs/robust/laweighted_v2_occlusion_s3.csv

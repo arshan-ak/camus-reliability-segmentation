@@ -1,0 +1,17 @@
+model,corruption,severity,strategy,target_val_cov,achieved_test_cov,all_dice,all_la,kept_dice,kept_la,kept_n,file
+laweighted_v2,v2_noise,2,global_thr,0.7,0.43,0.7581329400000001,0.637123225,0.813783953488372,0.7184635697674419,86,runs/robust/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,2,global_thr,0.8,0.525,0.7581329400000001,0.637123225,0.8069046476190476,0.7067396476190476,105,runs/robust/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,2,global_thr,0.9,0.69,0.7581329400000001,0.637123225,0.7915501521739131,0.685377536231884,138,runs/robust/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,2,global_thr,0.95,0.79,0.7581329400000001,0.637123225,0.7845123860759493,0.6735462341772152,158,runs/robust/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,3,global_thr,0.7,0.155,0.700110735,0.544190945,0.7581537419354839,0.5772952580645161,31,runs/robust/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_noise,3,global_thr,0.8,0.26,0.700110735,0.544190945,0.7427775000000001,0.5645239615384615,52,runs/robust/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_noise,3,global_thr,0.9,0.4,0.700110735,0.544190945,0.7415081875,0.5658162499999999,80,runs/robust/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_noise,3,global_thr,0.95,0.57,0.700110735,0.544190945,0.7321403859649122,0.5604043771929824,114,runs/robust/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_occlusion,2,global_thr,0.7,0.085,0.603753155,0.51180706,0.6999821176470588,0.588933294117647,17,runs/robust/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,2,global_thr,0.8,0.175,0.603753155,0.51180706,0.6872354285714286,0.5834531142857143,35,runs/robust/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,2,global_thr,0.9,0.395,0.603753155,0.51180706,0.6639913544303797,0.5451457088607595,79,runs/robust/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,2,global_thr,0.95,0.545,0.603753155,0.51180706,0.6593918623853212,0.562042871559633,109,runs/robust/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,3,global_thr,0.7,0.02,0.564627945,0.44650311000000004,0.68242275,0.5362145,4,runs/robust/laweighted_v2_occlusion_s3.csv
+laweighted_v2,v2_occlusion,3,global_thr,0.8,0.075,0.564627945,0.44650311000000004,0.6908123999999999,0.6193278666666665,15,runs/robust/laweighted_v2_occlusion_s3.csv
+laweighted_v2,v2_occlusion,3,global_thr,0.9,0.21,0.564627945,0.44650311000000004,0.6447072380952381,0.5061468333333332,42,runs/robust/laweighted_v2_occlusion_s3.csv
+laweighted_v2,v2_occlusion,3,global_thr,0.95,0.36,0.564627945,0.44650311000000004,0.6378965277777778,0.5041927777777777,72,runs/robust/laweighted_v2_occlusion_s3.csv

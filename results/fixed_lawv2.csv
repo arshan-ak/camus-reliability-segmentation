@@ -1,0 +1,9 @@
+model,corruption,severity,strategy,target_val_cov,achieved_test_cov,all_dice,all_la,kept_dice,kept_la,kept_n,file
+laweighted_v2,v2_noise,2,top50,,0.5,0.7581329400000001,0.637123225,0.8080521,0.7092597800000001,100,runs/robust_lawv2/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,2,top80,,0.8,0.7581329400000001,0.637123225,0.7828087874999999,0.67037990625,160,runs/robust_lawv2/laweighted_v2_noise_s2.csv
+laweighted_v2,v2_noise,3,top50,,0.5,0.700110735,0.544190945,0.7307846599999999,0.5500035099999999,100,runs/robust_lawv2/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_noise,3,top80,,0.8,0.700110735,0.544190945,0.72256518125,0.56611373125,160,runs/robust_lawv2/laweighted_v2_noise_s3.csv
+laweighted_v2,v2_occlusion,2,top50,,0.5,0.603753155,0.51180706,0.66204683,0.56254517,100,runs/robust_lawv2/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,2,top80,,0.8,0.603753155,0.51180706,0.63270849375,0.5450039062500001,160,runs/robust_lawv2/laweighted_v2_occlusion_s2.csv
+laweighted_v2,v2_occlusion,3,top50,,0.5,0.564627945,0.44650311000000004,0.6168534099999999,0.48558989000000014,100,runs/robust_lawv2/laweighted_v2_occlusion_s3.csv
+laweighted_v2,v2_occlusion,3,top80,,0.8,0.564627945,0.44650311000000004,0.58534260625,0.4597630875,160,runs/robust_lawv2/laweighted_v2_occlusion_s3.csv
