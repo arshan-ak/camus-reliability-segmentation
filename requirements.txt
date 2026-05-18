@@ -9,4 +9,4 @@ seaborn>=0.12
 tqdm>=4.65
 opencv-python>=4.7
 scipy>=1.9
-nibabel>=5.0# Add your pinned deps here (optional)
+nibabel>=5.0
